@@ -1,0 +1,24 @@
+Time-Series ???? 
+We can understand Time-Series as data captured at specific intervals of time. This time intervals are equally spaced. 
+You might be thinking can we call data collected at unequal intervals of time a time series ? A definite NO, as per our understanding from the above definition. CLear ?
+
+Time-Series Components ??
+Time-Series-----------Component 1. TREND     Component 2. Seasonality     Component 3. Residual
+
+What does this components mean to us ? 
+Usually, Time-Series will help us in understanding the observed data process like increase or decrease in trends, fluctuations , changes etc
+Let us how these components help us in understanding about the data.
+Trend - is our first friend helping us to know the direction of the time-series
+
+Seasonality - is our second friend helping us to understand data in short intervals of time , for example we might want to look at our monthly expenses rit? when we say monthly we meant 
+by specific short time interval- our second friend Seasonality can help us in analyzing such short period of times.
+
+Residual - our last but not least friend in helping us to look at the data if it contains any fluctuations or changes along the way.
+
+Given the models of our data - trend definition , seasonality definition, and residual definition we can construct our observed time data with these
+definitions.
+
+Decomposition Models of the Time-Series data:
+All these models defined based on the various combinations of our three friends Trend(T),Seasonality(S) and Residual(R). Lets call them TSR to save our keystrokes :)
+Like, I said combinations means T+S+R or T*S*R or T(S+R-1) - these combinations are currently prominent. Let us see what these groups are named.
+T+S+R - we call this team as Additive Model
