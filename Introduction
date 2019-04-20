@@ -7,7 +7,7 @@ Time-Series-----------Component 1. TREND     Component 2. Seasonality     Compon
 
 What does this components mean to us ? 
 Usually, Time-Series will help us in understanding the observed data process like increase or decrease in trends, fluctuations , changes etc
-Let us how these components help us in understanding about the data.
+Let us see how these components help us in understanding about the data.
 Trend - is our first friend helping us to know the direction of the time-series
 
 Seasonality - is our second friend helping us to understand data in short intervals of time , for example we might want to look at our monthly expenses rit? when we say monthly we meant 
@@ -22,3 +22,9 @@ Decomposition Models of the Time-Series data:
 All these models defined based on the various combinations of our three friends Trend(T),Seasonality(S) and Residual(R). Lets call them TSR to save our keystrokes :)
 Like, I said combinations means T+S+R or T*S*R or T(S+R-1) - these combinations are currently prominent. Let us see what these groups are named.
 T+S+R - we call this team as Additive Model
+T * S * R - we call this as multiplicative model
+combinations of additive and multiplicative - psuedoadditive model
+
+where are we using this? 
+amazon knows no of new users joined its website rit ? how does it know ? Time series analysis guys. like that there are many applications
+that are helping us to precisely focus on what we want to find. Some other examples incluse stock prices ,inventory levels etc
