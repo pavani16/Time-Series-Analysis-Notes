@@ -1,0 +1,21 @@
+In the world of time-series data, like we had people of various personalities and skills we assign different people with different jobs based on their skills.
+What ???
+Similarly, stationary time series data is a type of time series where constant mean, variance and autocorrelation is observed along with no periodic component.
+WHY ??
+So, this stationary person is important for forecasting models. Because , this is fundamental assumption about the data before it is modelled. 
+Even if the data is not stationary, we can make it work by transforming it into stationary.
+
+ENEMIES:
+Naturally stationary time series opponent would be Non Stationary time series and yes NonStationary Time Series have exactly the opposite features of Stationary Time Series.
+
+HOW ??
+Now that we got to know about these two differnt types of data , let us see how can we identify these guys in our datasets. 
+Several WAYS:
+1. Run Sequence Plots
+2. Summary Statistics
+3. Histogram plot
+4. Augmented Dickey-Fuller test(ADF)
+
+
+DEFINITIONS:
+AutoCorrelation - correlation between a observation made at two different timestamps.
